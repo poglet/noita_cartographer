@@ -1,0 +1,6 @@
+<Mod
+	name="Cartographer"
+	description="A fullscreen explorable map with true fog of war.\nPress M to open. Drag to pan, mouse wheel to zoom.\nOnly ground you have actually laid eyes on is ever revealed."
+	request_no_api_restrictions="0"
+>
+</Mod>

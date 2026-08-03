@@ -1,0 +1,8 @@
+# Written by Noita when a mod is first uploaded to the Steam Workshop.
+# Machine specific, and removing it is required to re-upload under a new item.
+workshop_id.txt
+
+# OS noise
+Thumbs.db
+Desktop.ini
+.DS_Store
