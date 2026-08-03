@@ -1,0 +1,20 @@
+<Mod
+	name="Cartographer"
+	description="A fullscreen explorable map with true fog of war.
+
+Press M to open the map. Drag to pan, mouse wheel to zoom, right click to recentre on yourself, Home to frame everything you have explored.
+
+Nothing is revealed that you have not genuinely seen. The fog is taken from the rendered camera each frame, so the map is exactly the ground you have laid eyes on - not a radius around you, and not the parts of the world the game happens to have loaded.
+
+- Terrain is tinted by biome, so the mines, the jungle and the vaults read apart at a glance.
+- Digging and explosions show up on the map, because explored ground keeps being re-checked.
+- Wands, potions, spells, perks and orbs you have seen are pinned. Hover a pin for its details - wands show their full stat block and the spells inside them.
+- Your explored map is stored in the save, so quitting and resuming a run keeps everything you have uncovered.
+- While the map is open your controls are locked, so panning cannot fire your wand and you cannot walk off a ledge reading it.
+
+Source and issues: https://github.com/willyamjarcand/noita_cartographer"
+	tags="quality of life"
+	dont_upload_folders="docs"
+	dont_upload_files=".gitignore|README.md|LICENSE"
+>
+</Mod>

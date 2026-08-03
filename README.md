@@ -115,3 +115,16 @@ Lua table, which matters because a long run can touch a thousand chunks.
 - Gold nuggets are deliberately not pinned; they would bury everything else.
 - Chests are not pinned — the tag was never confirmed.
 - Parallel worlds are recorded, but no effort is made to present them well.
+
+## Publishing to the Steam Workshop
+
+`workshop.xml` and `workshop_preview_image.png` are already in place. From the
+Noita directory:
+
+    noita_dev.exe -workshop_upload
+
+The `docs` folder and the repository metadata are excluded from the upload.
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
