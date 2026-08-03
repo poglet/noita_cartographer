@@ -3,6 +3,8 @@
 A fullscreen explorable map for Noita with true fog of war. Only terrain that
 has actually been on your screen is ever revealed.
 
+![Cartographer in action](docs/demo.gif)
+
 ## Install
 
 Copy or symlink this folder into `Noita/mods/cartographer`, then enable
