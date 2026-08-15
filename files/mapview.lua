@@ -45,6 +45,7 @@ M.opt_pause = false
 M.opt_immortal = true
 M.opt_show_stats = false
 M.widget_budget = C.WIDGET_BUDGET
+M.key_map = C.KEY_MAP
 
 -- ------------------------------------------------------------------ helpers
 
@@ -636,7 +637,7 @@ function M.update()
 	if gui == nil then gui = GuiCreate() end
 
 	-- Toggle. Guarded so it does not fire while a real inventory screen is up.
-	if InputIsKeyJustDown(C.KEY_MAP) and not (GameIsInventoryOpen() and not V.open) then
+	if InputIsKeyJustDown(M.key_map) and not (GameIsInventoryOpen() and not V.open) then
 		M.toggle()
 	end
 	if V.open and InputIsKeyJustDown(C.KEY_ESCAPE) then M.close() end
