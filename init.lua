@@ -39,6 +39,7 @@ local function refresh_settings()
 	mapview.opt_immortal = bool_setting("safe_while_open", true)
 	mapview.opt_pause = bool_setting("try_engine_pause", false)
 	mapview.opt_show_stats = bool_setting("show_stats", false)
+	mapview.key_map = num_setting("map_key", C.KEY_MAP)
 
 	if bool_setting("persist", true) then
 		persist.autosave_interval = 1800
